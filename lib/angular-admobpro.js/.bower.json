@@ -1,0 +1,39 @@
+{
+  "name": "angular-admobpro.js",
+  "homepage": "https://github.com/santonocito/angular-admobpro",
+  "authors": [
+    "Marco Santonocito <hello@marcosantonocito.com>"
+  ],
+  "description": "AngularJS extension on top of AdMob Pro Cordova Plugin",
+  "main": "angular-admobpro.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular",
+    "angular.js",
+    "admob",
+    "admob-pro",
+    "cordova",
+    "ad",
+    "google"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "f57fb2f7ed",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f57fb2f7ed977722ceb00fd8cadbab13e929ddb3"
+  },
+  "_source": "https://github.com/santonocito/angular-admobpro.git",
+  "_target": "*",
+  "_originalSource": "angular-admobpro",
+  "_direct": true
+}

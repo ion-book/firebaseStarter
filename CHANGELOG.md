@@ -1,4 +1,3 @@
-<a name"1.1.2"></a>
 ## 1.1.2 "bobby" (2016-05-16)
 
 #### Enhancements

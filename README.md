@@ -38,6 +38,8 @@ You need enable the option "Enable Email & Password Authentication" in your Fire
 $ ionic serve
 ```
 
+## Changelog
+
 ### 1.1.2 "bobby" (2016-05-16)
 
 ##### Enhancements

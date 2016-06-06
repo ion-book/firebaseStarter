@@ -6,6 +6,10 @@ angular.module('App').controller('homeController', function ($scope, $state,$cor
       Auth.logout();
       $location.path("/login");
   }
+  
+  $scope.profile = function () {
+      $location.path("/profile");
+  }
 
 }
 );

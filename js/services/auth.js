@@ -1,7 +1,16 @@
 angular.module('App').factory('Auth', function(FURL, $firebaseAuth, $firebaseArray, $firebaseObject, Utils) {
 
-	var ref = new Firebase(FURL);
-	var auth = $firebaseAuth(ref);
+	//var ref = new Firebase(FURL);
+  var config = {
+    apiKey: "AIzaSyCHejuR1gVWGwKAWHGyQWEqTQ2yw61SnF0",
+    authDomain: "asfirebase.firebaseapp.com",
+    databaseURL: "https://asfirebase.firebaseio.com",
+    storageBucket: "asfirebase.appspot.com",
+  };
+  firebase.initializeApp(config);
+	//var auth = $firebaseAuth(ref);
+  var ref = firebase.database().ref();
+  var auth = $firebaseObject(ref);
 
 	var Auth = {
 		user: {},
